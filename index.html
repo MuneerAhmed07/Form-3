@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+</head>
+
+<body>
+
+    <!-- Main container -->
+    <div>
+
+        <h2>Registration Form</h2>
+
+        <!-- Form section -->
+        <form action="" >
+
+            <div>
+                <!-- First name -->
+                <div>
+                    <label for="first_name">First Name</label>
+                    <input type="text" placeholder="first name" id="first_name" autocomplete="off">
+                </div><br>
+                <!-- last name -->
+                <div>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" placeholder="last name" id="last_name" autocomplete="off">
+                </div>
+            </div><br>
+
+            <div>
+                <!-- date of birth -->
+                <div>
+                    <label for="birth_date">Birth data</label>
+                    <input type="date" id="birth_date">
+                </div><br>
+                <!-- Radio button -->
+                <div>
+                    <label for="gender">Gender</label>
+                    <input type="radio" id="gender" name="male" checked> <span>Male</span>
+                    <input type="radio" id="gender" name="male"> <span>Female</span>
+                </div>
+            </div><br>
+
+            <div>
+                <!-- Email -->
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter email" id="email" autocomplete="off">
+                </div><br>
+                <!-- Phone number -->
+                <div>
+                    <label for="phone_number">Phone Number</label>
+                    <input type="number" placeholder="Phone" id="phone_number" autocomplete="off">
+                </div>
+            </div><br>
+
+            <div>
+                <!-- password -->
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter password" id="password" autocomplete="off">
+                </div> <br>
+                <!-- Confirm password -->
+                <div>
+                    <label for="confirm_password">Confirm Password</label>
+                    <input type="password" placeholder="confirm password" id="confirm_password" autocomplete="off">
+                </div>
+            </div><br>
+
+            <div>
+                <!-- Country -->
+                <div>
+                    <label for="country">Country</label>
+                    <select name="cars" id="country">
+                        <option value="pak" selected>Pakistan</option>
+                        <option value="ind">India</option>
+                        <option value="china">China</option>
+                        <option value="US">United States</option>
+                    </select>
+                </div><br>
+                <!-- City -->
+                <div>
+                    <label for="city">City</label>
+                    <input type="text" placeholder="city" id="city" autocomplete="off">
+                </div>
+            </div><br>
+
+            <div>
+                <!-- Current Address -->
+                <div >
+                    <label for="address">Current Adress</label>
+                    <input type="text" placeholder="current address" id="address" autocomplete="off">
+                </div>    
+            </div><br>
+
+            <div>
+                <input type="checkbox" id="check">
+                <label for="check">I Accept the terms and conditions</label>
+            </div><br>
+
+            <input type="button" value="submit">
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
